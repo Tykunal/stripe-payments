@@ -22,6 +22,7 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
+      "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
@@ -37,6 +38,14 @@
           "dark": {
             "backgroundColor": "#000000"
           }
+        }
+      ],
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "merchant.com.aviniya",
+          "enableGooglePay": true,
+          "publishableKey": "pk_test_51Sl4YrGy1q4tSzWR87s3VYjDknHooyrCt7g7X8I3VlXzCpFNdoba2XY2BQgrzlQKK5QDjitwrSGmGcgaO6BVSx7M00xv2vTuqb"
         }
       ]
     ],
